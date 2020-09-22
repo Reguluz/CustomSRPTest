@@ -1,0 +1,8 @@
+.idea/
+CustomRPTest.sln
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+.vscode/settings.json
+Assets/TEST/Train01/
+Library/
+obj/
