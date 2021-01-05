@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-[CreateAssetMenu(menuName = "Rendering/Custom Render Pipeline")]
+[CreateAssetMenu(menuName = "Rendering/Custom Render Pipeline Asset")]
+[Serializable]
 public class CustomRenderPipelineAsset : RenderPipelineAsset
 {
     [SerializeField]
